@@ -1,0 +1,5 @@
+[user]
+	name = Daniel Klein
+	email = bildzeitung@gmail.com
+[credential]
+	helper = cache
