@@ -5,6 +5,6 @@ Using:
 
 ## Run:
 
-* makesynlinks.sh
-* preinstall\_fluentd.sh
-* install\_rvm.sh
+1. makesynlinks.sh
+1. preinstall\_fluentd.sh
+1. install\_rvm.sh
