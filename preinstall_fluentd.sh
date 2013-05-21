@@ -2,12 +2,12 @@
 #
 # Ubuntu changes to support fluentd
 #
-sudo apt-get install ntp
+sudo apt-get -y install ntp
 
-sudo cp /etc/limits.conf /etc/limits.conf.orig
-sudo cat limits.conf >> /etc/limits.conf
+sudo cp /etc/security/limits.conf /etc/security/limits.conf.orig
+sudo /bin/sh -c 'cat limits.conf >> /etc/security/limits.conf'
 
 sudo cp /etc/sysctl.conf /etc/sysctl.conf.orig
-sudo cat sysctl.conf >> /etc/sysctl.conf
+sudo /bin/sh -c 'cat sysctl.conf >> /etc/sysctl.conf'
 
 sudo reboot
