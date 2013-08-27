@@ -1,6 +1,6 @@
+execute pathogen#infect()
 set nocompatible		    " get rid of VI compatibility
 filetype plugin indent on	" filetype detection, plugin, indent
-
 
 autocmd FileType make setlocal noexpandtab
 autocmd FileType ruby setlocal sw=2 ts=2 sts=2
