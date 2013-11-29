@@ -17,3 +17,5 @@ set shiftwidth=4		    " indent/outdent by 4
 set expandtab			    " no tabs, just spaces
 
 let g:UltiSnipsSnippetDirectories=["UltiSnips", "snippets"]
+
+setlocal foldmethod=syntax
