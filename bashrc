@@ -117,4 +117,4 @@ fi
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 alias vi=vim
-
+export PATH="/opt/chef/embedded/bin:$PATH"
