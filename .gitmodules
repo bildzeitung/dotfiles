@@ -5,8 +5,14 @@
 	path = vim/bundle/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown.git
 [submodule "vim/bundle/SimpylFold"]
-        path = vim/bundle/SimpylFold
-        url = https://github.com/tmhedberg/SimpylFold.git
+	path = vim/bundle/SimpylFold
+	url = https://github.com/tmhedberg/SimpylFold.git
 [submodule "vim/bundle/syntastic"]
-        path = vim/bundle/syntastic
-        url = https://github.com/scrooloose/syntastic
+	path = vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic
+[submodule "SimpylFold"]
+	path = SimpylFold
+	url = https://github.com/tmhedberg/SimpylFold.git
+[submodule "syntastic"]
+	path = syntastic
+	url = https://github.com/scrooloose/syntastic
