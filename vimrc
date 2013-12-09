@@ -18,4 +18,6 @@ set expandtab			    " no tabs, just spaces
 
 let g:UltiSnipsSnippetDirectories=["UltiSnips", "snippets"]
 
-setlocal foldmethod=syntax
+if exists('+foldmethod')
+    setlocal foldmethod=syntax
+endif
