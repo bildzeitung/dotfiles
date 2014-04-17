@@ -16,8 +16,6 @@ set tabstop=4			    " tabs have 4 spaces
 set shiftwidth=4		    " indent/outdent by 4
 set expandtab			    " no tabs, just spaces
 
-let g:UltiSnipsSnippetDirectories=["UltiSnips", "snippets"]
-
 if exists('+foldmethod')
     setlocal foldmethod=syntax
 endif

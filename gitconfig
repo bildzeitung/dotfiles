@@ -1,5 +1,10 @@
 [user]
-	name = Daniel Klein
-	email = bildzeitung@gmail.com
+	name = daniel.klein
+	email = daniel.klein@oracle.com
 [credential]
 	helper = cache
+[branch]
+	autosetuprebase = always
+[alias]
+    ribbon = tag --force _ribbon origin/master
+    catchup = log --patch --reverse --topo-order _ribbon..origin/master

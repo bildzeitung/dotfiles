@@ -118,3 +118,15 @@ fi
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 alias vi=vim
 export PATH="/opt/chef/embedded/bin:$PATH"
+export PATH=/opt/git/bin:$PATH
+
+#
+# configuration for commandline git
+#
+GIT_PS1_SHOWCOLORHINTS=1
+GIT_PS1_SHOWUPSTREAM="auto"
+GIT_PS1_SHOWUNTRACKEDFILES=1
+GIT_PS1_SHOWSTASHSTATE=1
+source ~/dotfiles/git-completion.bash
+source ~/dotfiles/git-prompt.sh
+PROMPT_COMMAND='__git_ps1 "\u@\h:\w" "\\\$ "'
