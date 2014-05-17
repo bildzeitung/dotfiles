@@ -8,3 +8,4 @@ Original idea:
 1. git clone https://github.com/bildzeitung/dotfiles.git
 1. makesymlinks.sh
 1. git submodule init ; git submodule update --recursive
+1. cd vim/bundle/jedi-vim ; git submodule init ; git submodule update --recursive
