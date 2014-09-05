@@ -129,3 +129,8 @@ export LD_LIBRARY_PATH
 #
 source ~/dotfiles/git-completion.bash
 source ~/dotfiles/liquidprompt/liquidprompt
+#
+# for ruby development
+#
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
