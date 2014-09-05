@@ -115,18 +115,17 @@ if ! shopt -oq posix; then
   fi
 fi
 
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+#PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+PATH=$PATH:/scratch/dbcli/12.1.0/client_1
 alias vi=vim
-export PATH="/opt/chef/embedded/bin:$PATH"
+#export PATH="/opt/chef/embedded/bin:$PATH"
 export PATH=/opt/git/bin:$PATH
+
+LD_LIBRARY_PATH=/scratch/dbcli/12.1.0/client_1:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH
 
 #
 # configuration for commandline git
 #
-GIT_PS1_SHOWCOLORHINTS=1
-GIT_PS1_SHOWUPSTREAM="auto"
-GIT_PS1_SHOWUNTRACKEDFILES=1
-GIT_PS1_SHOWSTASHSTATE=1
 source ~/dotfiles/git-completion.bash
-source ~/dotfiles/git-prompt.sh
-PROMPT_COMMAND='__git_ps1 "\u@\h:\w" "\\\$ "'
+source ~/dotfiles/liquidprompt/liquidprompt
