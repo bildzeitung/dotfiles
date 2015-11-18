@@ -130,6 +130,11 @@ export LD_LIBRARY_PATH
 source ~/dotfiles/git-completion.bash
 source ~/dotfiles/liquidprompt/liquidprompt
 #
+# configuration for docker
+#
+source ~/dotfiles/docker/contrib/completion/bash/docker
+source ~/dotfiles/docker-helper.sh
+#
 # for ruby development
 #
 export PATH="$HOME/.rbenv/bin:$PATH"
