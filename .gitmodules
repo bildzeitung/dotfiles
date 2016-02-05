@@ -28,3 +28,6 @@
 [submodule "vim/bundle/vim-python-test-runner"]
 	path = vim/bundle/vim-python-test-runner
 	url = https://github.com/JarrodCTaylor/vim-python-test-runner
+[submodule "vim/bundle/vim-colors-solarized"]
+	path = vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git

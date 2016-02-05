@@ -7,7 +7,8 @@ autocmd FileType ruby setlocal sw=2 ts=2 sts=2
 
 set t_Co=256			    " 256 colour mode
 syntax enable           	" enable syntax highlighting
-colorscheme desert		    " fav colourscheme
+let g:solarized_termcolors=256
+colorscheme solarized	    " fav colourscheme
 
 set number                	" show line numbers
 set ruler                 	" Always show info along bottom.
