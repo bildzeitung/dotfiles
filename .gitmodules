@@ -25,3 +25,6 @@
 [submodule "docker"]
 	path = docker
 	url = https://github.com/docker/docker.git
+[submodule "vim/bundle/vim-python-test-runner"]
+	path = vim/bundle/vim-python-test-runner
+	url = https://github.com/JarrodCTaylor/vim-python-test-runner
