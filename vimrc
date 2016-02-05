@@ -20,3 +20,6 @@ set expandtab			    " no tabs, just spaces
 if exists('+foldmethod')
     setlocal foldmethod=syntax
 endif
+
+" Remaps
+nnoremap <Leader>nf :NosetestFile<CR>
