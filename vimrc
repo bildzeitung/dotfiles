@@ -23,3 +23,4 @@ endif
 
 " Remaps
 nnoremap <Leader>nf :NosetestFile<CR>
+nnoremap <Leader>nm :NosetestMethod<CR>
