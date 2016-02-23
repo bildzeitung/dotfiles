@@ -29,3 +29,6 @@
 	path = vim/bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
 
+[submodule "vim/bundle/vim-python-test-runner"]
+	path = vim/bundle/vim-python-test-runner
+	url = https://github.com/bildzeitung/vim-python-test-runner.git
