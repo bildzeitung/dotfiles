@@ -133,7 +133,7 @@ source ~/dotfiles/liquidprompt/liquidprompt
 # configuration for docker
 #
 source ~/dotfiles/docker/contrib/completion/bash/docker
-source ~/dotfiles/docker-helper.sh
+#source ~/dotfiles/docker-helper.sh
 #
 # for ruby development
 #
