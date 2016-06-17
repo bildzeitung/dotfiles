@@ -11,6 +11,7 @@
     co = !git checkout `git branch | cut -c 3- | pick`
     rem = rebase master
 	ctags = !.git/hooks/ctags
+    rmb = !git branch -D `git branch | cut -c 3- | pick`
 [push]
 	default = simple
 [init]
