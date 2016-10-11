@@ -16,12 +16,19 @@
 [submodule "syntastic"]
 	path = syntastic
 	url = https://github.com/scrooloose/syntastic
-[submodule "vim/bundle/jedi-vim"]
-	path = vim/bundle/jedi-vim
-	url = https://github.com/davidhalter/jedi-vim.git
 [submodule "liquidprompt"]
 	path = liquidprompt
 	url = https://github.com/nojhan/liquidprompt.git
 [submodule "rbenv"]
 	path = rbenv
 	url = https://github.com/sstephenson/rbenv.git
+[submodule "docker"]
+	path = docker
+	url = https://github.com/docker/docker.git
+[submodule "vim/bundle/vim-colors-solarized"]
+	path = vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+
+[submodule "vim/bundle/vim-python-test-runner"]
+	path = vim/bundle/vim-python-test-runner
+	url = https://github.com/bildzeitung/vim-python-test-runner.git
