@@ -1,0 +1,2 @@
+#!/bin/bash
+LD_LIBRARY_PATH=/usr/lib /usr/bin/mosh-server new -c 256 -s -l LANG=en_CA.UTF-8 -- tmux a
