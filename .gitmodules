@@ -32,3 +32,6 @@
 [submodule "vim/bundle/vim-python-test-runner"]
 	path = vim/bundle/vim-python-test-runner
 	url = https://github.com/bildzeitung/vim-python-test-runner.git
+[submodule "vim/bundle/YouCompleteMe"]
+	path = vim/bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
