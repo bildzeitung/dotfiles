@@ -139,3 +139,4 @@ source ~/dotfiles/docker/contrib/completion/bash/docker
 #
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+eval $(thefuck --alias)
