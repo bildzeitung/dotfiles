@@ -38,3 +38,6 @@
 [submodule "vim/bundle/YCM-Generator"]
 	path = vim/bundle/YCM-Generator
 	url = https://github.com/rdnetto/YCM-Generator.git
+[submodule "pick"]
+	path = pick
+	url = https://github.com/calleerlandsson/pick.git
