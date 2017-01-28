@@ -8,6 +8,9 @@ git submodule init ; git submodule update --recursive
 sudo yum groupinstall -y 'Development Tools' --skip-broken
 sudo yum install -y tmux mosh vim cmake python-devel
 
+# fix firewall
+sudo iptables -I INPUT 1 -p udp --dport 60000:61000 -j ACCEPT
+
 # setup python bits
 cd /tmp && curl -O https://bootstrap.pypa.io/get-pip.py
 sudo python ./get-pip.py
