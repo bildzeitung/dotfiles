@@ -35,3 +35,12 @@
 [submodule "vim/bundle/vim-gitgutter"]
 	path = vim/bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "vim/bundle/YouCompleteMe"]
+	path = vim/bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "vim/bundle/YCM-Generator"]
+	path = vim/bundle/YCM-Generator
+	url = https://github.com/rdnetto/YCM-Generator.git
+[submodule "pick"]
+	path = pick
+	url = https://github.com/calleerlandsson/pick.git
