@@ -16,3 +16,5 @@
 	default = simple
 [init]
 	templatedir = ~/.git_template
+[core]
+	pager = diff-so-fancy | less --tabs=4 -RFX
