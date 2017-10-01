@@ -19,3 +19,5 @@ sudo -H pip install flake8
 cd ~/dotfiles/vim/bundle/YouCompleteMe
 git submodule update --init --recursive
 ./install.py --clang-completer
+sudo cp diff-so-fancy/third_party/build_fatpack/diff-so-fancy /usr/local/bin
+sudo chmod ugo+x /usr/local/bin/diff-so-fancy
