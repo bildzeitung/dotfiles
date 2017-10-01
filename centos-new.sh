@@ -6,7 +6,7 @@ git submodule init ; git submodule update --recursive
 
 # grab some modules
 sudo yum groupinstall -y 'Development Tools' --skip-broken
-sudo yum install -y tmux mosh vim cmake python-devel
+sudo yum install -y tmux mosh vim cmake python-devel wget
 
 # fix firewall
 sudo iptables -I INPUT 1 -p udp --dport 60000:61000 -j ACCEPT
